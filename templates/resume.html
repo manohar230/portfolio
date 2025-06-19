@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block content %}
+<main>
+    <div class="container my-5">
+  <h2 class="text-center mb-4">My Resume</h2>
+  
+  <!-- Embedded Resume PDF Viewer -->
+  <div class="text-center">
+    <iframe src="/static/img/manohar_resume.pdf" 
+            width="100%" 
+            height="600px" 
+            style="border: 2px solid #ccc; border-radius: 10px;">
+    </iframe>
+  </div>
+
+  <!-- Download Button -->
+  <div class="text-center mt-3">
+    <a href="/static/img/manohar_resume.pdf" 
+       class="btn btn-primary" 
+       download>
+      Download Resume
+    </a>
+  </div>
+</div>
+</main>
+{% endblock %}

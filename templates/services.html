@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container my-5">
+  <h2 class="text-center mb-4">Services</h2>
+  <div class="row text-center">
+    
+    <!-- Service 1 -->
+    <div class="col-md-4 mb-4">
+      <div class="card shadow h-100">
+        <div class="card-body">
+          <i class="bi bi-code-slash display-4 text-primary mb-3"></i>
+          <h5 class="card-title">Front-End Development</h5>
+          <p class="card-text">Responsive and modern UI using HTML, CSS, JavaScript, and React to bring ideas to life.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Service 2 -->
+    <div class="col-md-4 mb-4">
+      <div class="card shadow h-100">
+        <div class="card-body">
+          <i class="bi bi-server display-4 text-success mb-3"></i>
+          <h5 class="card-title">Back-End Development</h5>
+          <p class="card-text">RESTful APIs, logic handling, and database integration using Python, Flask, and SQL.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Service 3 -->
+    <div class="col-md-4 mb-4">
+      <div class="card shadow h-100">
+        <div class="card-body">
+          <i class="bi bi-database-check display-4 text-warning mb-3"></i>
+          <h5 class="card-title">Database Management</h5>
+          <p class="card-text">Designing and managing scalable, optimized databases using MySQL and SQLite.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+{% endblock %}
